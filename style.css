@@ -1,0 +1,165 @@
+body {
+    background-color: #f8f9fa; /* or same as your site */
+    margin: 0;
+  }  
+  
+  .hero {
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+  }
+  
+  .skill-box {
+    background: #f8f9fa;
+    border: 2px solid #dee2e6;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+  
+  .skill-box:hover {
+    background: #0d6efd;
+    color: white;
+    transform: scale(1.05);
+  }
+
+  .accordion-button:focus {
+    box-shadow: none;
+    background-color: transparent;
+    color: inherit;
+  }
+
+  .exp-card {
+  position: relative;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  min-height: 180px;
+  cursor: pointer;
+}
+
+.exp-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.exp-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.exp-sub {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.exp-details {
+  opacity: 0;
+  max-height: 0;
+  transition: all 0.4s ease;
+  overflow: hidden;
+}
+
+.exp-card:hover .exp-details {
+  opacity: 1;
+  max-height: 500px;
+  margin-top: 10px;
+}
+
+.exp-card {
+    position: relative;
+    padding: 16px 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    min-height: 150px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .exp-title {
+    font-weight: 600;
+    font-size: 1.05rem;
+    margin-bottom: 4px;
+  }
+  
+  .exp-sub {
+    font-size: 0.875rem;
+    color: #666;
+    margin-bottom: 0;
+  }
+  
+  .exp-details {
+    opacity: 0;
+    max-height: 0;
+    margin-top: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    padding-top: 0;
+  }
+  
+  .exp-card:hover .exp-details {
+    opacity: 1;
+    max-height: 300px;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+
+  .footer-copyright {
+    margin-bottom: 20px;
+  }
+  
+  html, body {
+    background-color: #f8f9fa;
+    margin: 0;
+    height: 100%;
+  }
+
+  #contact .card {
+    transition: transform 0.3s ease;
+  }
+  
+  #contact .card:hover {
+    transform: translateY(-5px);
+  }
+
+  .card img {
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover img {
+    transform: scale(1.03);
+  }
+
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .card-img-top {
+    height: 200px;
+    object-fit: contain;
+    object-position: top;
+    background-color: #f8f9fa; /* Optional: for empty areas */
+  }
+
+  .card-title {
+    font-weight: 600;
+  }
+
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit:unset;
+    border: 4px solid #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
