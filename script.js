@@ -1,11 +1,5 @@
-// Example JS functionality (placeholder)
-document.addEventListener("DOMContentLoaded", () => {
-    console.log("Portfolio Loaded");
+document.querySelectorAll('.exp-card').forEach(card => {
+  card.addEventListener('mouseenter', () => {
+    console.log(`Hovered on: ${card.querySelector('.exp-title')?.textContent}`);
   });
-
-  document.querySelectorAll('.accordion-button').forEach(btn => {
-    btn.addEventListener('click', () => {
-      console.log(`Viewed: ${btn.textContent.trim()}`);
-    });
-  });
-  
+});
