@@ -162,4 +162,9 @@ body {
     border: 4px solid #ffffff;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
   
